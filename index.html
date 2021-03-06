@@ -10,255 +10,260 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__user">
-        <h1 class="header__user-name">Valeria Koroleva</h1>
-        <h2 class="header__user-position">Frontend developer</h2>
-      </div>
-      <div class="header__contacts">
-        <ul class="contacts">
-          <li class="contacts__item">
-            <a href="tel:89959170076" class="contacts__link">+7 995 917 00 76</a>
-          </li>
-          <li class="contacts__item">
-            <a href="mailto:valeriia.koroleva@gmail.com" class="contacts__link">valeriia.koroleva@gmail.com</a>
-          </li>
-          <li class="contacts__item">
-            <a href="https://t.me/SuperLera" class="contacts__link">@SuperLera</a>
-          </li>
-        </ul>
+      <div class="container header__container">
+        <div class="header__user">
+          <h1 class="title header__user-name">Valeria Koroleva</h1>
+          <h2 class="title header__user-position">Frontend developer</h2>
+        </div>
+        <div class="header__contacts">
+          <ul class="contacts">
+            <li class="contacts__item">
+              <a href="tel:89959170076" class="contacts__link link">+7 995 917 00 76</a>
+            </li>
+            <li class="contacts__item">
+              <a href="mailto:valeriia.koroleva@gmail.com" class="contacts__link link">valeriia.koroleva@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+              <a href="https://t.me/SuperLera" class="contacts__link link">@SuperLera</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main class="main">
       <aside class="aside">
-        <div class="aside__avatar">
-          <img class="aside__avatar-image" src="assets/user.jpg" alt="">
+        <div class="container aside__container">
+          <div class="aside__avatar">
+            <img class="aside__avatar-image" src="assets/user2.jpg" alt="developer's photo">
+          </div>
+          <section class="aside__skills">
+            <h3 class="title skills__title">Skills</h3>
+            <div class="skills">
+              <div class="skills__row">
+                <h4 class="title skills__row-title">Frontend</h4>
+                <div class="skills__row-content">
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-html" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">HTML5 CSS3</div>
+                      </div>
+                    </li>
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-js" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">JS(ES5+)</div>
+                      </div>
+                    </li>
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-vue" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">Vue.js</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="skills__row">
+                <h4 class="title skills__row-title">Backend</h4>
+                <div class="skills__row-content">
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-node" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">NodeJS</div>
+                      </div>
+                    </li>
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-express" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">Express.js</div>
+                      </div>
+                    </li>
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-mongo" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">MongoDB</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="skills__row">
+                <h4 class="title skills__row-title">Workflow</h4>
+                <div class="skills__row-content">
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-git" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">Git</div>
+                      </div>
+                    </li>
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-npm" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">NPM Yarn</div>
+                      </div>
+                    </li>
+                    <li class="skills__item">
+                      <div class="skills__wrapper">
+                        <svg class="skills__image" viewBox="0 0 100 100">
+                          <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
+                          <circle class="skills__circle skills__circle--above skills__circle--above-webpack" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
+                        </svg>
+                        <div class="skills__desc">Webpack Gulp</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="aside__languages">
+            <h3 class="title languages__title">Languages</h3>
+            <div class="languages__block">
+              <div class="languages__item">English</div>
+              <div class="languages__level">B2 Upper-intermediate</div>
+            </div>
+            <div class="languages__block">
+              <div class="languages__item">French</div>
+              <div class="languages__level">B1 Intermediate</div>
+            </div>
+            <div class="languages__block">
+              <div class="languages__item">Spanish</div>
+              <div class="languages__level">A2 Pre-intermediate</div>
+            </div>
+          </section>
+          <section class="projects">
+            <h3 class="title projects__title">My projects</h3>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a href="https://superlera.github.io" class="projects__link link">Burgers | Landing page</a>
+              </li>
+              <li class="projects__item">
+                <a href="https://superlera.github.io/portfolio/" class="projects__link link">Personal website (in process)</a>
+              </li>
+            </ul>
+          </section>
         </div>
-        <section class="aside__skills">
-          <h3 class="title skills__title">Skills</h3>
-          <div class="skills">
-            <div class="skills__row">
-              <h4 class="skills__row-title">Frontend</h4>
-              <div class="skills__row-content">
-                <ul class="skills__list">
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-html" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">HTML5 CSS3</div>
-                    </div>
-                  </li>
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-js" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">JS(ES5+)</div>
-                    </div>
-                  </li>
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-vue" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">Vue.js</div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="skills__row">
-              <h4 class="skills__row-title">Backend</h4>
-              <div class="skills__row-content">
-                <ul class="skills__list">
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-node" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">NodeJS</div>
-                    </div>
-                  </li>
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-express" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">Express.js</div>
-                    </div>
-                  </li>
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-mongo" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">MongoDB</div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="skills__row">
-              <h4 class="skills__row-title">Workflow</h4>
-              <div class="skills__row-content">
-                <ul class="skills__list">
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-git" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">Git</div>
-                    </div>
-                  </li>
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-npm" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">NPM Yarn</div>
-                    </div>
-                  </li>
-                  <li class="skills__item">
-                    <div class="skills__wrapper">
-                      <svg class="skills__image" viewBox="0 0 100 100">
-                        <circle class="skills__circle skills__circle--under" cx="50" cy="50" r="40"></circle>
-                        <circle class="skills__circle skills__circle--above skills__circle--above-webpack" cx="50" cy="50" r="40" ref="color-circle" transform="rotate(180 50 50)"></circle>
-                      </svg>
-                      <div class="skills__desc">Webpack Gulp</div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="aside__languages">
-          <h3 class="title languages__title">Languages</h3>
-          <div class="languages__block">
-            <div class="languages__item">English</div>
-            <div class="languages__level">B2 Upper-intermediate</div>
-          </div>
-          <div class="languages__block">
-            <div class="languages__item">French</div>
-            <div class="languages__level">B1 Intermediate</div>
-          </div>
-          <div class="languages__block">
-            <div class="languages__item">Spanish</div>
-            <div class="languages__level">A2 Pre-intermediate</div>
-          </div>
-        </section>
       </aside>
       <div class="content">
-        <section class="about">
-          <p>
-            I love developing modern websites and applications.
-            At the moment I'm seeking a challenging environment where I can use my skills in web development to reach company's strategic and financial goals and to realize myself as a specialist.
-            I also always strive to be a good team player as I'm convinced that only teamwork can achieve the best results and create really powerful things.
-          </p>
-        </section>
-        <section class="education">
-          <h3 class="title education__title">Education</h3>
-          <div class="education__row">
-            <div class="education__column education__column--year">2007—2012</div>
-            <div class="education__column education__column--title">Master’s degree in Marketing</div>
-            <div class="education__column education__column--place">Moscow State Linguistic University, Economics and law department</div>
-          </div>
-          <div class="education__row">
-            <div class="education__column education__column--year">2012</div>
-            <div class="education__column education__column--title">Professional marketing communication in English, French languages</div>
-            <div class="education__column education__column--place">Moscow State Linguistic University, Economics and law department</div>
-          </div>
-          <div class="education__row">
-            <div class="education__column education__column--year">2012</div>
-            <div class="education__column education__column--title">Spanish for foreigners</div>
-            <div class="education__column education__column--place">Enforex Salamanca Escuela de Estudios Internacionales, Spain</div>
-          </div>
-          <div class="education__row">
-            <div class="education__column education__column--year">2020</div>
-            <div class="education__column education__column--title">MongoDB basics<br><a href="https://university.mongodb.com/course_completion/53c72e43-1f87-4d01-b419-6b5475270f35?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing" class="education__certificate-link" target="_blank">certificate</a></div>
-            <div class="education__column education__column--place"><a href="https://university.mongodb.com/" class="education__link" target="_blank">MongoDB University</a></div>
-          </div>
-          <div class="education__row">
-            <div class="education__column education__column--year">2020</div>
-            <div class="education__column education__column--title">Web developer<br><a href="https://loftschool.com/diploma/NPR30817HQ284IMJ5/en/pdf" class="education__certificate-link" target="_blank">certificate</a></div>
-            <div class="education__column education__column--place"><a href="https://loftschool.com" class="education__link" target="_blank">LoftSchool IT school</a></div>
-          </div>
-        </section>
-        <section class="experience">
-          <h3 class="title experience__title">Work experience</h3>
-          <div class="experience__row">
-            <div class="experience__column experience__column--year">August 2020—currently</div>
-            <div class="experience__column experience__column--position">Web developer</div>
-            <div class="experience__column experience__column--company">Academic Center of Laser Medicine</div>
-            <div class="experience__column experience__column--duties"> Main responsibilities:
-              * adaptive, cross-browser, valid layout of the company's landing pages and main website
-              * refactoring and optimization of outdated layout and code (including JS scripts)
-              * content managment</div>
-          </div>
-          <div class="experience__row">
-            <div class="experience__column experience__column--year">January 2017—July 2020</div>
-            <div class="experience__column experience__column--position">Administrator</div>
-            <div class="experience__column experience__column--company">Academic Center of Laser Medicine</div>
-            <div class="experience__column experience__column--duties">Main responsibilities:
-              * participation in Bitrix24 CRM system implementation project (development of technical specifications, testing)
-              * administration of the clinic
-              * financial statements etc.</div>
-          </div>
-          <div class="experience__row">
-            <div class="experience__column experience__column--year">January 2015—December 2016</div>
-            <div class="experience__column experience__column--position">Brand manager</div>
-            <div class="experience__column experience__column--company">Eurowine</div>
-            <div class="experience__column experience__column--duties">Development and implementation of marketing strategy of 8 wine brands (French, Spanish, Italian, South African) in the Russian market</div>
-          </div>
-          <div class="experience__row">
-            <div class="experience__column experience__column--year">December 2012—December 2014</div>
-            <div class="experience__column experience__column--position">Junior brand manager</div>
-            <div class="experience__column experience__column--company">Moscow Brewing Company</div>
-            <div class="experience__column experience__column--duties">Development of marketing activities for all sales channels in cooperation with Senior brand manager</div>
-          </div>
-        </section>
-        <section class="projects">
-          <h3 class="title projects__title">My projects</h3>
-          <ul class="projects__list">
-            <li class="projects__item">
-              <a href="https://superlera.github.io" class="projects__link">Burgers | Landing page</a>
-            </li>
-            <li class="projects__item">
-              <a href="https://superlera.github.io/portfolio/" class="projects__link">Personal website (in process)</a>
-            </li>
-            <li class="projects__item"> and some other on my
-              <a href="https://github.com/SuperLera" class="projects__link">github</a>
-            </li>
-          </ul>
-        </section>
+        <div class="container content__container">
+          <section class="about">
+            <div class="about__info">
+              <p>
+                I love developing modern websites and applications.<br>
+                At the moment I'm seeking a challenging environment where I can use my skills in web development to reach company's strategic and financial goals and to realize myself as a specialist.
+                <br>I also always strive to be a good team player as I'm convinced that only teamwork can achieve the best results and create really powerful things.
+              </p>
+            </div>
+          </section>
+          <section class="education">
+            <h3 class="title education__title">Education</h3>
+            <div class="education__row">
+              <div class="education__column education__column--year">2007—2012</div>
+              <div class="education__column education__column--title">Master’s degree in Marketing</div>
+              <div class="education__column education__column--place">Moscow State Linguistic University, Economics and law department</div>
+            </div>
+            <div class="education__row">
+              <div class="education__column education__column--year">2012</div>
+              <div class="education__column education__column--title">Professional marketing communication in English, French languages</div>
+              <div class="education__column education__column--place">Moscow State Linguistic University, Economics and law department</div>
+            </div>
+            <div class="education__row">
+              <div class="education__column education__column--year">2012</div>
+              <div class="education__column education__column--title">Spanish for foreigners</div>
+              <div class="education__column education__column--place">Enforex Salamanca Escuela de Estudios Internacionales, Spain</div>
+            </div>
+            <div class="education__row">
+              <div class="education__column education__column--year">2020</div>
+              <div class="education__column education__column--title">MongoDB basics<br><a href="https://university.mongodb.com/course_completion/53c72e43-1f87-4d01-b419-6b5475270f35?utm_source=copy&utm_medium=social&utm_campaign=university_social_sharing" class="education__certificate-link link" target="_blank">certificate</a></div>
+              <div class="education__column education__column--place"><a href="https://university.mongodb.com/" class="education__link" target="_blank">MongoDB University</a></div>
+            </div>
+            <div class="education__row">
+              <div class="education__column education__column--year">2020</div>
+              <div class="education__column education__column--title">Web developer<br><a href="https://loftschool.com/diploma/NPR30817HQ284IMJ5/en/pdf" class="education__certificate-link link" target="_blank">certificate</a></div>
+              <div class="education__column education__column--place"><a href="https://loftschool.com" class="education__link" target="_blank">LoftSchool IT school</a></div>
+            </div>
+          </section>
+          <section class="experience">
+            <h3 class="title experience__title">Work experience</h3>
+            <div class="experience__row">
+              <div class="experience__column experience__column--year">Aug 2020—currently</div>
+              <div class="experience__column experience__column--position"><strong>Web developer</strong><br>Academic Center of Laser Medicine</div>
+              <ul class="experience__column experience__column--duties">
+                <li>Adaptive, cross-browser, valid layout of the company's landing pages and main website</li>
+                <li>Refactoring and optimization of outdated layout and code (including JS scripts)</li>
+                <li>Content managment</li>
+              </ul>
+            </div>
+            <div class="experience__row">
+              <div class="experience__column experience__column--year">Jan 2017—Jul 2020</div>
+              <div class="experience__column experience__column--position"><strong>Administrator</strong><br>Academic Center of Laser Medicine</div>
+              <ul class="experience__column experience__column--duties">
+                <li>Participation in Bitrix24 CRM system implementation project (development of technical specifications, testing)</li>
+                <li>Administration of the clinic</li>
+                <li>Financial statements etc.</li>
+              </ul>
+            </div>
+            <div class="experience__row">
+              <div class="experience__column experience__column--year">Jan 2015—Dec 2016</div>
+              <div class="experience__column experience__column--position"><strong>Brand manager</strong><br>Eurowine</div>
+              <div class="experience__column experience__column--duties">Development and implementation of marketing strategy of 8 wine brands (French, Spanish, Italian, South African) in the Russian market</div>
+            </div>
+            <div class="experience__row">
+              <div class="experience__column experience__column--year">Dec 2012—Dec 2014</div>
+              <div class="experience__column experience__column--position"><strong>Junior brand manager</strong><br>Moscow Brewing Company</div>
+              <div class="experience__column experience__column--duties">Development of marketing activities for all sales channels in cooperation with Senior brand manager</div>
+            </div>
+          </section>
+        </div>
       </div>
     </main>
     <footer class="footer">
-      <div class="footer__year">2021</div>
-      <div class="footer__socials">
-        <ul class="socials">
-          <li class="socials__item">
-            <a href="" class="socials__link">linked</a>
-          </li>
-          <li class="socials__item">
-            <a href="" class="socials__link">github</a>
-          </li>
-          <li class="socials__item">
-            <a href="" class="socials__link">codewars</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__rss-logo">
-        <a href="https://rs.school/" class="rss-logo__link" target="_blank">
-        logo rss</a>
+      <div class="container footer__container">
+        <div class="footer__year">&copy; 2021</div>
+        <div class="footer__socials">
+          <ul class="socials">
+            <li class="socials__item">
+              <a href="" class="socials__link">linked</a>
+            </li>
+            <li class="socials__item">
+              <a href="" class="socials__link">github</a>
+            </li>
+            <li class="socials__item">
+              <a href="" class="socials__link">codewars</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__rss-logo">
+          <a href="https://rs.school/" class="rss-logo__link" target="_blank">
+          logo rss</a>
+        </div>
       </div>
     </footer>
   </div>
