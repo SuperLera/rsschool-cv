@@ -431,6 +431,11 @@ section {
   transition: 0.3s;
 }
 
+.link:hover .enclose{
+  fill: #bf6673;
+  transition: 0.3s;
+}
+
 
 .wrapper {
   max-width: 1020px;
@@ -456,6 +461,7 @@ section {
 
 .header__user-name {
   font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .header__user-position {
@@ -678,8 +684,8 @@ section {
 }
 
 .footer__year {
-  opacity: 0.5;
-  font-size: 28px;
+  opacity: 0.9;
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -702,4 +708,27 @@ section {
 
 .about {
   border-left: 6px solid rgba(99, 97, 97, 0.3);
+}
+
+.rss-logo {
+  fill: rgb(99, 97, 97);
+  transition: 0.3s;
+}
+
+.rss-logo:hover {
+  fill: #bf6673;
+}
+
+.enclose {
+  fill: #4b6fd7;
+  transition: 0.3s;
+}
+
+.github {
+  fill: rgb(99, 97, 97);
+  transition: 0.3s;
+}
+
+.github:hover {
+  fill: #bf6673;
 }
